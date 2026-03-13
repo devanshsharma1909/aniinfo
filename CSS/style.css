@@ -25,6 +25,7 @@ margin:0 10px;
 text-decoration:none;
 color:white;
 font-weight:bold;
+
 }
 
 /* SEARCH BAR */
@@ -61,11 +62,12 @@ padding:60px 20px;
 
 .grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+grid-template-columns:repeat(3,1fr);
 gap:25px;
-max-width:900px;
+max-width:1980px;
 margin:auto;
 padding:40px;
+box-shadow: magenta 0px 0px 10px;
 }
 
 /* CARDS */
@@ -88,7 +90,7 @@ object-fit:cover;
 
 .card:hover{
 transform:scale(1.08);
-box-shadow:0 15px 30px rgba(0,0,0,0.6);
+box-shadow:10px 10px 10px gold;
 }
 
 .overlay{

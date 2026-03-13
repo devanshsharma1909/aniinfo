@@ -88,7 +88,7 @@ object-fit:cover;
 
 .card:hover{
 transform:scale(1.08);
-box-shadow:0 15px 30px rgba(0,0,0,0.6);
+box-shadow:0 15px 30px gold;
 }
 
 .overlay{
